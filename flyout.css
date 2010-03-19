@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+}
+
+body{
+	font:13px/180% "Helvetica", "Arial", sans-serif;
+	width:500px;
+	margin:50px auto;
+	background:#eaeaea;
+	color:#666;
+}
+
+h2{
+	font-size:16px;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #dadada;
+}
+
+.widget{
+	background:#fff;
+	padding:10px;
+	margin-bottom:10px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border:3px solid #d8d8d8;
+}
+
+.gear{
+	text-indent:-999999px;
+	display:block;
+	width:26px;
+	height:26px;
+	background:url('gear.png') no-repeat;
+}
+
+.menu{
+	float:right;
+	position:relative;
+}
+
+.menu_options{
+	margin-top:5px;
+	position:absolute;
+	width:200px;
+	background:url('pointer.png') no-repeat 50% top;
+	padding:21px;
+}
+
+.menu_options li{
+	list-style:none;
+	padding:5px;
+	background:#474747;
+}
+
+.menu_options li:first-child {
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+}
+
+.menu_options li:last-child {
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+
+.menu_options a{
+	display:block;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	padding:5px;
+}
+
+.menu_options a:hover{
+	background:#44a2e2;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+#menu_1,
+#menu_2{
+	/*Styles specific to menu 1*/
+	left:-108px;
+}
